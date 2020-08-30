@@ -995,6 +995,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 715599698}
     m_Modifications:
+    - target: {fileID: 970005641432901038, guid: 37bffec434f389f40a64189ecbd560f3, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1144590490612522251, guid: 37bffec434f389f40a64189ecbd560f3, type: 3}
       propertyPath: m_Name
       value: grassblock_default (1)
@@ -2700,14 +2704,6 @@ PrefabInstance:
       propertyPath: paddle1
       value: 
       objectReference: {fileID: 551249730}
-    - target: {fileID: 2109966213033356200, guid: a00dcaa0e7b5c374ba6865ef98a93eb1, type: 3}
-      propertyPath: m_UseAutoMass
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2109966213033356200, guid: a00dcaa0e7b5c374ba6865ef98a93eb1, type: 3}
-      propertyPath: m_Mass
-      value: 0.22265124
-      objectReference: {fileID: 0}
     - target: {fileID: 2109966213033356203, guid: a00dcaa0e7b5c374ba6865ef98a93eb1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.03
