@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Level : MonoBehaviour
 {
-    [SerializeField] int numberOfBlocks;
+    int numberOfBlocks;
     int score = 0;
     [SerializeField] TextMeshProUGUI scoreText;
     SceneLoader sceneLoader;
@@ -31,11 +31,14 @@ public class Level : MonoBehaviour
     {
 
         score++;
-     
-        scoreText.text = score.ToString();
+
+        scoreText.text = "Your score is: " + score.ToString();
     }
-    public string startScore()
+    public void startScore()
     {
-        return score.ToString();
+        scoreText.text = "Your score is: " + score.ToString();
+        
+
+
     }
 }

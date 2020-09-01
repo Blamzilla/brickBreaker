@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+
 
 
 public class Block : MonoBehaviour
@@ -19,7 +21,8 @@ public class Block : MonoBehaviour
         level = FindObjectOfType<Level>();
 
         level.countBreakableBlocks();
-        
+
+        level.startScore();
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
