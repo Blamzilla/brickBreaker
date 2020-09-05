@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1144590490612522252}
   - component: {fileID: 1144590490612522255}
   m_Layer: 0
-  m_Name: grassblock_default
+  m_Name: Breakable
   m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124,3 +124,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroySound: {fileID: 8300000, guid: b51aa7d5010ec774c8efff3854537fa2, type: 3}
   blockSparkleVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
+  maxHits: 3
+  hitSprites:
+  - {fileID: 21300000, guid: 987323ffd57e00845b4e9830306d2957, type: 3}
+  - {fileID: 21300000, guid: 3e95b44e2145fba45833a27bb15eeea2, type: 3}
+  timesHit: 0
